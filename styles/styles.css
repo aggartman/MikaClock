@@ -1,0 +1,115 @@
+html {
+  background-color: #ffb3d9;
+  margin: 20px 40px;
+}
+
+.box {
+  width: 100%;
+  height: 900px;
+  display: grid;
+  grid-template-columns: repeat(3, auto) 25% 25%;
+  grid-template-rows: 25% 25% 25% 25%;
+  grid-template-areas: 
+    "Clock Clock Clock . ."
+    "Clock Clock Clock . ."
+    "Clock Clock Clock Sign Sign"
+    "Clock Clock Clock Sign Sign";
+}
+
+.clock {
+  position: relative;
+  grid-column: 1 / 4;
+  grid-row: 1 / 5;
+  align-self: auto;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+}
+
+.clockBody {
+  position: absolute;
+  grid-column: 4 / 8;
+  grid-row: 1 / 7;
+  height: 90%;
+  left: 12px;
+}
+
+.clockTail {
+  position: absolute;
+  display: grid;
+  align-items: center;
+  grid-column: 6 / 7;
+  grid-row: 6 / 11;
+  height: 80%;
+  top: 5px;
+  right: 45px;
+  z-index: -1;
+
+}
+
+.clockEyes {
+  position: absolute;
+  grid-column: 5 / 7;
+  grid-row: 1;
+  top: 20px;
+  right: 5px;
+  scale: 1.15;
+  z-index: -1;
+}
+
+.clockMin {
+  position: relative;
+  grid-column: 6;
+  grid-row: 4;
+  height: 110%;
+  bottom: 18px;
+  right: 8px;
+  transform: rotate(180deg);
+  transform-origin: bottom;
+}
+
+.clockHour {
+  position: relative;
+  grid-column: 5;
+  grid-row: 4;
+  height: 40%;
+  justify-self: flex-end; /* row */
+  top: 43px;
+  right: 2px;
+  transform: rotate(60deg);
+  transform-origin: bottom right;
+}
+
+.handCover {
+  position: relative;
+  grid-column: 6;
+  grid-row: 5;
+  height: 20%;
+  right: 10px;
+  bottom: 20px;
+  z-index: 3;
+}
+.text {
+  position: relative;
+  grid-column: 4 / 6;
+  grid-row: 3 / 5;
+  font-family: 'Sacramento', cursive;
+  font-size: 5em;
+  color: white;
+  display: grid;
+  grid-template: repeat(4, auto) / repeat(5, auto)
+}
+h1 {
+  position: relative;
+  font-size: 1.50em;
+  grid-row: 3 / 4;
+  grid-column: 4 / 6;
+  top: 40px;
+}
+h2 {
+  position: relative;
+  grid-column: 5 / 6;
+  grid-row: 4 / 5;
+  text-align: right;
+  right: 30px;
+}
