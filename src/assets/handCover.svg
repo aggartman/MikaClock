@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22.68 23.27">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #d89a50;
+        stroke: #070707;
+        stroke-miterlimit: 10;
+        stroke-width: .5px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <ellipse class="cls-1" cx="11.34" cy="11.64" rx="11.09" ry="11.39"/>
+  </g>
+</svg>
