@@ -62,10 +62,10 @@ function App() {
           </div>
           <div className="textContainer">
               <p className="mika">
-                  To Mika
+                  To Mika,
               </p>
               <p className="text2">
-                  Love, Dad
+                  Love Dad
               </p>
           </div>
       </div>
