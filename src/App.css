@@ -7,7 +7,7 @@ body {
 
 #root {
   max-width: 1280px;
-  margin: 0 auto;
+  margin: 0;
   text-align: center;
   width: 100%;
   height: 100%;
@@ -107,4 +107,21 @@ body {
   font-style: normal;
   bottom: 5vh;
   left: 10%;
+}
+
+.github {
+  width: 1.5vw;
+  margin-top: 0.5rem;
+}
+
+.github:hover {
+  box-shadow: 0 0 1rem hotpink;
+}
+
+.footer {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #af7c86;
 }

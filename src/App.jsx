@@ -6,6 +6,7 @@ import mikaEyes from './assets/mikaEyes.svg'
 import minuteHand from './assets/minuteHand.svg'
 import hourHand from './assets/hourHand.svg'
 import handCover from './assets/handCover.svg'
+import githubLink from './assets/github-mark.svg'
 
 import './App.css'
 
@@ -69,6 +70,9 @@ function App() {
               </p>
           </div>
       </div>
+        <div className='footer'>
+            <a href="https://github.com/aggartman/MikaClock" target="_blank" rel="noopener noreferrer"><img className="github" src={githubLink} alt="Github Repo Link"/></a>
+        </div>
     </>
   )
 }
