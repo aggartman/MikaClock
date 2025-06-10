@@ -17,6 +17,24 @@ body {
   height: 100%;
 }
 
+.clockEyes {
+  display: block;
+  position: absolute;
+  height: 4.5vh;
+  top: 6.2rem;
+  right: 47%;
+  margin: 0 auto;
+  z-index: 5;
+  animation: tick 2s infinite linear;
+}
+
+@keyframes tick {
+  25% { transform: translateX(-6.25%); }
+  50% { transform: translateX(0); }
+  75% { transform: translateX(7.75%); }
+  100% { transform: translateX(0); }
+}
+
 .clockBody {
   display: block;
   position: absolute;
@@ -34,4 +52,45 @@ body {
   bottom: 3.5rem;
   margin: 0 auto;
   z-index: -1;
+  transform-origin: top center;
+  animation: tock 2s linear infinite;
 }
+
+@keyframes tock {
+  25% {transform: rotate(15deg);}
+  50% {transform: rotate(0deg);}
+  75% {transform: rotate(-15deg);}
+  100% {transform: rotate(0deg);}
+}
+
+.handCover {
+  display: block;
+  position: absolute;
+  height: 2.5vh;
+  right: 50.25%;
+  bottom: 54.5%;
+  z-index: 5;
+}
+
+.minuteHand {
+  display: block;
+  position: absolute;
+  height: 8.5vh;
+  right: 50.60%;
+  bottom: 56%;
+  z-index: 4;
+}
+
+.hourHand {
+  display: block;
+  position: absolute;
+  height: 6vh;
+  right: 50.60%;
+  bottom: 56%;
+  z-index: 4;
+}
+
+.minuteHand, .hourHand {
+  transform-origin: bottom center;
+}
+
