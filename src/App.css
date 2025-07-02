@@ -125,3 +125,295 @@ body {
   width: 100%;
   background-color: #af7c86;
 }
+
+/* Tablet - Landscape (1024px - 1366px) */
+@media screen and (max-width: 1366px) and (min-width: 1024px) {
+  .clockEyes {
+    height: 4vh;
+    top: 5.5rem;
+    right: 46%;
+  }
+
+  .clockBody {
+    height: 55vh;
+    right: 38%;
+  }
+
+  .clockTail {
+    height: 35vh;
+    right: 45%;
+    bottom: 4rem;
+  }
+
+  .handCover {
+    height: 2.3vh;
+    right: 49.75%;
+    bottom: 53.5%;
+  }
+
+  .minuteHand {
+    height: 7.5vh;
+    right: 50.25%;
+    bottom: 55%;
+  }
+
+  .hourHand {
+    height: 5.5vh;
+    right: 50.25%;
+    bottom: 55%;
+  }
+
+  .textContainer {
+    font-size: 3.5rem;
+    left: 8%;
+  }
+
+  .github {
+    width: 2vw;
+  }
+}
+
+/* Tablet - Portrait (768px - 1023px) */
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  .clockEyes {
+    height: 3.5vh;
+    top: 7rem;
+    right: 44%;
+  }
+
+  .clockBody {
+    height: 50vh;
+    top: 2rem;
+    right: 35%;
+  }
+
+  .clockTail {
+    height: 32vh;
+    right: 43%;
+    bottom: 5rem;
+  }
+
+  .handCover {
+    height: 2vh;
+    right: 49.25%;
+    bottom: 52%;
+  }
+
+  .minuteHand {
+    height: 7vh;
+    right: 49.75%;
+    bottom: 53.5%;
+  }
+
+  .hourHand {
+    height: 5vh;
+    right: 49.75%;
+    bottom: 53.5%;
+  }
+
+  .textContainer {
+    font-size: 3rem;
+    left: 5%;
+    bottom: 4vh;
+  }
+
+  .github {
+    width: 2.5vw;
+  }
+}
+
+/* Large Mobile - Landscape (667px - 767px) */
+@media screen and (max-width: 767px) and (min-width: 667px) and (orientation: landscape) {
+  .clockEyes {
+    height: 5vh;
+    top: 3.5rem;
+    right: 45%;
+  }
+
+  .clockBody {
+    height: 65vh;
+    top: 0.5rem;
+    right: 37%;
+  }
+
+  .clockTail {
+    height: 45vh;
+    right: 44%;
+    bottom: 2rem;
+  }
+
+  .handCover {
+    height: 3vh;
+    right: 49.5%;
+    bottom: 56%;
+  }
+
+  .minuteHand {
+    height: 10vh;
+    right: 50%;
+    bottom: 57.5%;
+  }
+
+  .hourHand {
+    height: 7vh;
+    right: 50%;
+    bottom: 57.5%;
+  }
+
+  .textContainer {
+    font-size: 2.5rem;
+    left: 3%;
+    bottom: 3vh;
+  }
+
+  .github {
+    width: 3vw;
+  }
+}
+
+/* Mobile - Portrait (320px - 666px) */
+@media screen and (max-width: 666px) {
+  .clockEyes {
+    height: 3vh;
+    top: 10rem;
+    right: 42%;
+  }
+
+  .clockBody {
+    height: 45vh;
+    top: 4rem;
+    right: 30%;
+  }
+
+  .clockTail {
+    height: 30vh;
+    right: 40%;
+    bottom: 10rem;
+  }
+
+  .handCover {
+    height: 1.8vh;
+    right: 48.75%;
+    bottom: 50.5%;
+  }
+
+  .minuteHand {
+    height: 6.5vh;
+    right: 49.25%;
+    bottom: 52%;
+  }
+
+  .hourHand {
+    height: 4.5vh;
+    right: 49.25%;
+    bottom: 52%;
+  }
+
+  .textContainer {
+    font-size: 2.5rem;
+    left: 5%;
+    bottom: 3vh;
+  }
+
+  .github {
+    width: 5vw;
+  }
+}
+
+/* Small Mobile (320px - 480px) */
+@media screen and (max-width: 480px) {
+  .clockEyes {
+    height: 3.0vh;
+    top: 7.5rem;
+    right: 41.4%;
+  }
+
+  .clockBody {
+    height: 40vh;
+    top: 5rem;
+    right: 25%;
+  }
+
+  .clockTail {
+    height: 28vh;
+    right: 38%;
+    bottom: 12rem;
+  }
+
+  .handCover {
+    height: 1.5vh;
+    right: 50%;
+    bottom: 60%;
+  }
+
+  .minuteHand {
+    height: 6vh;
+    right: 51%;
+    bottom: 61%;
+  }
+
+  .hourHand {
+    height: 4vh;
+    right: 51%;
+    bottom: 61%;
+  }
+
+  .textContainer {
+    font-size: 2rem;
+    left: 5%;
+    bottom: 2vh;
+  }
+
+  .github {
+    width: 6vw;
+  }
+}
+
+/* Extra Small Mobile - Landscape (480px - 667px) */
+@media screen and (max-width: 667px) and (min-width: 480px) and (orientation: landscape) {
+  .clockEyes {
+    height: 4vh;
+    top: 2.5rem;
+    right: 44%;
+  }
+
+  .clockBody {
+    height: 70vh;
+    top: 0;
+    right: 35%;
+  }
+
+  .clockTail {
+    height: 50vh;
+    right: 43%;
+    bottom: 1rem;
+  }
+
+  .handCover {
+    height: 3vh;
+    right: 49.25%;
+    bottom: 58%;
+  }
+
+  .minuteHand {
+    height: 11vh;
+    right: 49.75%;
+    bottom: 59.5%;
+  }
+
+  .hourHand {
+    height: 8vh;
+    right: 49.75%;
+    bottom: 59.5%;
+  }
+
+  .textContainer {
+    font-size: 2rem;
+    left: 2%;
+    bottom: 1vh;
+  }
+
+  .github {
+    width: 4vw;
+  }
+}
